@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  /* Dropdown Menu */
+  .dropdownMenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .dropdownHeader {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dropdownAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .dropdownHeader p {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .dropdownItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdownItem {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdownItem:hover {
+    background: #f5f5f5;
+  }
+  
+  .dropdownItemLogout {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .dropdownItemLogout:hover {
+    background: #ffeaea;
+  }
+  

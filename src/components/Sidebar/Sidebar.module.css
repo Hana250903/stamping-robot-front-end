@@ -1,0 +1,50 @@
+/* components/Sidebar/Sidebar.module.css */
+.sidebar {
+  width: 250px;
+  background: #4c4993;
+  color: #f4f5f1;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Viền trên */
+}
+
+.sidebarItem:hover {
+  background: #222;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.subMenu {
+  padding-left: 20px;
+}
+
+.subItem {
+  display: block;
+  padding: 5px 0;
+  color: #f4f5f1;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Viền trên submenu */
+}
+
+.subItem:hover {
+  color: #f0efe6;
+}
