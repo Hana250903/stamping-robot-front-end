@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap");
+@import url("vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css");
+
+/* Import thủ công các tệp CSS khác */
+@import url("./variables.css");
+@import url("./override.css");
+@import url("./layout/container.css");
+@import url("./layout/sidebar.css");
+@import url("./layout/topbar.css");
+@import url("./components/VButtons.css");
+@import url("./components/VCard.css");
+@import url("./components/VInput.css");
+@import url("./components/VNavigationDrawer.css");
+@import url("./components/VShadow.css");
+@import url("./components/VTextField.css");
+@import url("./pages/dashboards.css");
+@import url("./pages/authentication.css");

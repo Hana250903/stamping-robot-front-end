@@ -1,0 +1,84 @@
+html {
+
+    /* Các màu nền có chữ trắng */
+    .bg-success,
+    .bg-primary,
+    .bg-secondary,
+    .bg-warning,
+    .bg-error,
+    .bg-info,
+    .bg-indigo {
+        color: white !important;
+    }
+
+    /* Màu chữ cho tiêu đề */
+    .text-h1,
+    .text-h2,
+    .text-h3,
+    .text-h4,
+    .text-h5,
+    .text-h6 {
+        color: rgb(var(--v-theme-grey200));
+    }
+}
+
+/* Button với shadow */
+.v-btn--elevated.bg-primary {
+    box-shadow: 0 4px 12px rgba(var(--v-theme-primary), 0.3);
+}
+
+/* Viền và divider */
+.border,
+.v-divider {
+    border-color: rgba(var(--v-border-color), 1) !important;
+}
+
+.v-divider {
+    opacity: 1;
+}
+
+/* Avatar border */
+.avtar-border {
+    border: 2px solid rgb(var(--v-theme-surface)) !important;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 14px;
+    line-height: 1.75rem;
+}
+
+/* Viền phải */
+.border-right {
+    border-right: 1px solid rgba(var(--v-border-color), 1) !important;
+}
+
+/* Kế thừa màu chữ */
+.color-inherit {
+    color: inherit;
+}
+
+/* Ẩn thanh cuộn ngang */
+.add-class .ps__thumb-x {
+    display: none !important;
+}
+
+/* Định dạng bảng */
+.v-table .v-table__wrapper>table>thead>tr>th {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.v-table .v-table__wrapper>table>tbody>tr>td {
+    font-size: 14px;
+}
+
+/* Chiều cao toàn màn hình */
+.h-100vh {
+    height: 100vh;
+}
+
+/* Khoảng cách giữa các phần tử */
+.gap-3 {
+    gap: 10px;
+}

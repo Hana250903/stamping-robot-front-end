@@ -1,0 +1,211 @@
+.leftSidebar {
+    border-radius: 18px;
+    height: calc(100% - 40px) !important;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1279px) {
+    .leftSidebar {
+        height: 100% !important;
+        border-radius: 0;
+    }
+}
+
+.leftSidebar .mini-icon {
+    display: none;
+}
+
+.leftSidebar .mini-text {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.leftSidebar .profile-name {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.leftSidebar .profile-name h5 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .verticalLayout .logo {
+        width: auto;
+    }
+}
+
+.v-navigation-drawer__content {
+    overflow-y: hidden !important;
+}
+
+/* Vertical sidebar */
+.scrollnavbar {
+    height: calc(100vh - 130px);
+}
+
+.scrollnavbar .userbottom {
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.scrollnavbar .smallCap {
+    padding: 3px 12px 12px 0px !important;
+    font-weight: 500;
+    margin-top: 24px;
+    color: rgb(var(--v-theme-grey200));
+}
+
+.scrollnavbar .smallCap:first-child {
+    margin-top: 0 !important;
+}
+
+/* General Menu */
+.scrollnavbar .v-list-group__items .v-list-item,
+.scrollnavbar .v-list-item {
+    padding-inline-start: calc(12px + var(--indent-padding) / 10) !important;
+    margin: 0 0 2px;
+}
+
+.scrollnavbar .v-list-item__prepend {
+    margin-inline-end: 13px;
+    z-index: 2;
+}
+
+.scrollnavbar .v-list-item__append {
+    position: relative;
+    z-index: 2;
+}
+
+.scrollnavbar .v-list-item__append .v-icon {
+    margin-inline-start: 13px;
+}
+
+/* Dropdown */
+.scrollnavbar .v-list {
+    color: rgb(var(--v-theme-textSecondary));
+}
+
+.scrollnavbar .v-list>.v-list-item.v-list-item--active,
+.scrollnavbar .v-list-item--active>.v-list-item__overlay {
+    background: transparent;
+    color: white;
+}
+
+.scrollnavbar .v-list-item--variant-text .v-list-item__overlay {
+    background: transparent;
+}
+
+.scrollnavbar .v-list>.v-list-group {
+    position: relative;
+}
+
+.scrollnavbar .v-list>.v-list-group>.v-list-item--active,
+.scrollnavbar .v-list>.v-list-group>.v-list-item--active:hover {
+    background: transparent;
+    color: white;
+}
+
+.scrollnavbar .v-list-group__items .v-list-item.v-list-item--active,
+.scrollnavbar .v-list-group__items .v-list-item.v-list-item--active>.v-list-item__overlay {
+    background: transparent;
+    color: rgb(var(--v-theme-secondary));
+}
+
+.scrollnavbar .v-list-item__content {
+    position: relative;
+    z-index: 2;
+}
+
+.scrollnavbar .icon-box {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.scrollnavbar .v-list-item--density-default.v-list-item--one-line {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 40px !important;
+}
+
+.scrollnavbar .v-list-item--density-default:not(.v-list-item--nav).v-list-item--one-line {
+    padding-inline-start: 0 !important;
+    padding-inline-end: 12px;
+}
+
+.scrollnavbar .z-index-2 {
+    z-index: 2;
+}
+
+.scrollnavbar .bg-hover-primary::before {
+    background-color: rgba(var(--v-theme-primary), 12%);
+}
+
+.scrollnavbar .bgicn-hover-primary {
+    background-color: rgba(var(--v-theme-primary), 12%);
+}
+
+.scrollnavbar .bgicn-hover-primary::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    width: 40px;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+    border-radius: 10px;
+    left: 0;
+}
+
+.scrollnavbar .bgicn-hover-primary:hover::before {
+    z-index: 1;
+}
+
+.scrollnavbar .bgicn-hover-primary.v-list-item--active::before {
+    z-index: 1;
+}
+
+.scrollnavbar .v-list-item .navbox::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    width: 0;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+    border-radius: 0px;
+    left: -16px;
+    width: 0;
+}
+
+.scrollnavbar .v-list-item.v-list-item--active .navbox::before {
+    width: calc(100% + 16px);
+    border-radius: 0 24px 24px 0;
+}
+
+.scrollnavbar .v-list-item.v-list-item--active .navbox .bgicn-hover-primary {
+    background-color: rgba(var(--v-theme-primary), 0%);
+}
+
+.scrollnavbar .v-list-item:hover .navbox::before {
+    width: calc(100% + 16px);
+    border-radius: 0 24px 24px 0;
+}
+
+.scrollnavbar .v-list-item:hover .navbox .texthover-primary {
+    color: rgb(var(--v-theme-primary));
+}
+
+.scrollnavbar .v-list-item:hover .navbox .bgicn-hover-primary {
+    background-color: rgba(var(--v-theme-primary), 0%);
+}

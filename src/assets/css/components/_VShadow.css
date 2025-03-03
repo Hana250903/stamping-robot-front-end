@@ -1,0 +1,17 @@
+.elevation-9 {
+  box-shadow: rgb(0 0 0 / 5%) 0px 9px 17.5px !important;
+}
+
+/* Cần thay thế $box-shadow bằng giá trị thực tế */
+.elevation-10 {
+  box-shadow: none !important;
+  /* Thay thế bằng giá trị thực của $box-shadow */
+}
+
+.primary-shadow {
+  box-shadow: rgba(var(--v-theme-primary), 0.30) 0px 12px 14px 0px;
+}
+
+.primary-shadow:hover {
+  box-shadow: none;
+}
