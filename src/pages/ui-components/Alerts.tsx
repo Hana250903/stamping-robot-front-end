@@ -3,7 +3,7 @@ import UiParentCard from "@/components/shared/UiParentCard";
 import UiChildCard from "@/components/shared/UiChildCard";
 
 import Basic from "@/components/ui-components/alert/Basic";
-import Filled from "@/components/ui-components/alert/Filled";
+import Filled from "@/components/ui-components/button/Filled";
 import Closable from "@/components/ui-components/alert/Closable";
 
 export default function AlertsPage() {

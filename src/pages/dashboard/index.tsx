@@ -1,10 +1,10 @@
 "use client";
 
 import { Grid, Box, Typography, Link } from "@mui/material";
-import ProfitExpense from "/dashboard/ProfitExpense";
+import ProfitExpense from "@/components/dashboards/ProfitExpense";
 import TrafficDistribution from "@/components/dashboards/TrafficDistribution";
 import ProductSales from "@/components/dashboards/ProductSales";
-import UpcomingSchedule from "@/components/dashboards/UpcomingSchedule";
+import UpcomingSchedule from "@/components/dashboards/UpcommingSchedule";
 import TopPayingClients from "@/components/dashboards/TopPayingClients";
 import ProductCards from "@/components/dashboards/ProductCards";
 

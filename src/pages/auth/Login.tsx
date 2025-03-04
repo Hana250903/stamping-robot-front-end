@@ -2,9 +2,9 @@
 
 import { Box, Button, Card, CardContent, Typography, Container, Grid } from "@mui/material";
 import Link from "next/link";
-import AuthLoginForm from "@/components/AuthLoginForm";
-import LayoutFullLogoDark from "@/components/LayoutFullLogoDark";
-declare module '@/components/AuthLoginForm';
+import LoginForm from "@/components/auth/LoginForm";
+import LayoutFullLogoDark from "@/components/Layout/Full/logo/LogoDark";
+declare module '@/components/auth/LoginForm';
 
 export default function LoginPage() {
     return (
@@ -27,7 +27,7 @@ export default function LoginPage() {
                                 </Box>
 
                                 {/* Form đăng nhập */}
-                                <AuthLoginForm />
+                                <LoginForm />
 
                                 <Typography variant="body2" align="center" sx={{ mt: 2 }}>
                                     New to Spike?{" "}

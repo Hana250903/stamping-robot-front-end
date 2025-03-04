@@ -2,8 +2,8 @@
 
 import { Box, Button, Card, CardContent, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
-import AuthRegisterForm from "@/components/AuthRegisterForm";
-import LayoutFullLogoDark from "@/components/LayoutFullLogoDark";
+import RegisterForm from "@/components/auth/RegisterForm";
+import LogoDark from "@/components/Layout/Full/logo/LogoDark";
 
 export default function RegisterPage() {
     return (
@@ -22,7 +22,7 @@ export default function RegisterPage() {
                         <Card elevation={10} sx={{ borderRadius: 3, p: 3 }}>
                             <CardContent>
                                 <Box display="flex" justifyContent="center" mb={3}>
-                                    <LayoutFullLogoDark />
+                                    <LogoDark />
                                 </Box>
 
                                 {/* Tiêu đề */}
@@ -44,7 +44,7 @@ export default function RegisterPage() {
                                 </Box>
 
                                 {/* Form đăng ký */}
-                                <AuthRegisterForm />
+                                <RegisterForm />
 
                                 <Typography variant="body2" align="center" sx={{ mt: 2 }}>
                                     Already have an account?{" "}
