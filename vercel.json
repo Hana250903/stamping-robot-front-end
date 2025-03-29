@@ -6,7 +6,7 @@
       }
     ],
     "rewrites": [
-    { "source": "/home", "destination": "/" }
+    { "source": "/", "destination": "/" }
   ]
   }
   
